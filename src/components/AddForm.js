@@ -30,8 +30,8 @@ const AddForm = (props) =>
         {
             const newSmurf = {
                 name: state.name,
-                nickname: state.nickname,
                 position: state.position,
+                nickname: state.nickname,
                 description: state.description,
                 id: Date.now()
             };
